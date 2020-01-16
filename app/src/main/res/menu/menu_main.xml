@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menuactivity.MainActivity">
+
+    <item
+        android:id="@+id/Sum"
+        android:orderInCategory="100"
+        android:title="Sum of Digits"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/Reverse"
+        android:orderInCategory="100"
+        android:title="Reverse"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/Prime"
+        android:orderInCategory="100"
+        android:title="Prime"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/Factorial"
+        android:orderInCategory="100"
+        android:title="Factorial"
+        app:showAsAction="collapseActionView" />
+</menu>
